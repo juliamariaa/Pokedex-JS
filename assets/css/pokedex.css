@@ -168,16 +168,16 @@ h1:hover{
     color: #a040a0;
     cursor: pointer;
     text-decoration: none;
-    
 }
 
-@media screen and (min-width: 380px) {
+
+/* Responsividade */
+@media screen and (min-width: 500px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-/* Responsividade */
 @media screen and (min-width: 576px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
